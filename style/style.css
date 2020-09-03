@@ -142,4 +142,26 @@
         cursor: pointer;
 
     }
+    @media(max-width:974px){
+        h1{
+          
+            font-weight: bold;
+            margin-left: 80px;
+            width: 85%;
+            
+        }
+      .container{
+          display: flex;
+          flex-flow: column;
+          margin-left: 90px;
+          margin-right: 90px;
+      }
+      .info{
     
+          width: 75%;
+      }
+      .input{
+        width: 75%;
+        margin-left: 0px;
+      }
+    }
