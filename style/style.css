@@ -21,6 +21,7 @@
         display: flex;
         margin-left: 150px;
         margin-right: 100px;
+        flex-wrap: wrap;
     }
     .info{
         width: 38%;
@@ -76,7 +77,7 @@
         color: #515151;
     }
     input{
-        width: 500px;
+        width: 80%;
         height: 3.5em;
         border-radius: 3px;
         box-shadow: none;
@@ -90,7 +91,7 @@
         margin-bottom: 20px;
     }
     select{
-        width: 500px;
+        width: 80%;     
         height: 3.5em;
         border-radius: 3px;
         box-shadow: none;
@@ -100,7 +101,7 @@
         font-family: 'Lato', sans-serif;
     }
     textarea{
-        width: 500px;
+        width: 80%;
         height: 4.5em;
         border-radius: 3px;
         box-shadow: none;
@@ -125,7 +126,7 @@
         line-height: 1.2em;
     }
     .button{
-        width: 500px;
+        width: 80%;
     }
     button{
         width: 100%;
